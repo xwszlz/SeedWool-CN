@@ -1,0 +1,13 @@
+/* SeedWool design tokens — 两站同源，改动请同步两份 */
+:root{
+  --basalt:#1E2730; --basalt-2:#26333D; --basalt-3:#162028;
+  --moss:#3D9970; --moss-bright:#4FC38A; --moss-dark:#2F7D58; --moss-soft:rgba(61,153,112,.12);
+  --sand:#E8DCC8; --surface:#F7F5F0; --line:#D9D3C6; --white:#FFFFFF;
+  --ink:#1E2730; --muted:#667482; --warn-bg:#FFF8E8; --warn-line:#F0D9A0; --warn-ink:#8A6D2F;
+  --r:12px; --r-sm:8px; --max:1200px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-6:24px; --sp-8:32px; --sp-12:48px; --sp-16:64px; --sp-20:80px;
+  --fs-h1:40px; --fs-h2:28px; --fs-body:16px; --fs-cap:13px;
+  --font-zh:"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --font-en:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media(min-width:1024px){:root{--fs-h1:56px;--fs-h2:32px}}
