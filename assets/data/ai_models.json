@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T22:30:00+08:00",
+  "layers": [
+    {
+      "id": "L1",
+      "name_zh": "工艺层",
+      "name_en": "Process layer",
+      "status": "2027 启动"
+    },
+    {
+      "id": "L2",
+      "name_zh": "栽培层",
+      "name_en": "Cultivation layer",
+      "status": "2028 推进"
+    },
+    {
+      "id": "L3",
+      "name_zh": "温室层",
+      "name_en": "Greenhouse layer",
+      "status": "2028 推进"
+    }
+  ],
+  "vision_diagnosis": {
+    "name_zh": "长势视觉诊断",
+    "name_en": "Growth vision diagnosis",
+    "entry": "wechat_miniprogram",
+    "qr_asset": "assets/img/ali2.webp",
+    "desc_zh": "拍照约 30 秒生成秧苗素质评分",
+    "desc_en": "~30 s photo-based seedling vigour scoring",
+    "site_visibility": [
+      "cn"
+    ]
+  },
+  "open_api": {
+    "status": "planned",
+    "desc_zh": "规划支持对接客户已有气候计算机，不建封闭 App",
+    "desc_en": "Planned integration with customers' existing climate computers; no closed app",
+    "benchmark": [
+      "GroSens API",
+      "Hoogendoorn IIVO",
+      "Priva One",
+      "Source.ag"
+    ],
+    "endpoint": null,
+    "cta": "contact.html?type=data",
+    "site_visibility": [
+      "cn",
+      "com"
+    ]
+  }
+}

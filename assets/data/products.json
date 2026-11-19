@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1.0",
-  "updated_at": "2026-11-19T10:00:00+08:00",
+  "schema_version": "1.2.0",
+  "updated_at": "2026-11-19T22:30:00+08:00",
   "disclaimer": {
     "price_mode": "consult",
     "note": "全站不列价格，规格与报价按方案确定"
@@ -26,7 +26,11 @@
       "featured": true,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "id": "p_sub_block",
@@ -48,7 +52,11 @@
       "featured": true,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "id": "p_rice_board",
@@ -70,7 +78,11 @@
       "featured": false,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "id": "p_rice_mat",
@@ -92,7 +104,11 @@
       "featured": false,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "id": "p_seed_plug",
@@ -114,7 +130,11 @@
       "featured": false,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "id": "p_other_custom",
@@ -136,6 +156,76 @@
       "featured": false,
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null,
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
+    },
+    {
+      "id": "p_corn_11",
+      "sector_id": "sec_corn",
+      "product_form": "plug",
+      "form": "plug",
+      "name_zh": "玉米育苗基质 SW-MZ-11",
+      "name_en": "Maize seedling media SW-MZ-11",
+      "spec_zh": "规格与理化指标按玉米育苗规程（待发布）",
+      "spec_en": "Specs per maize propagation protocol (to be released)",
+      "crops_zh": "玉米",
+      "crops_en": "Maize",
+      "models": [
+        "SW-MZ-11"
+      ],
+      "protocol_steps": 6,
+      "quality_grades": [
+        "一级",
+        "二级",
+        "三级"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "target",
+      "site_visibility": [
+        "cn",
+        "com"
+      ],
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T22:30:00+08:00",
+      "updated_at": "2026-11-19T22:30:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_corn_12",
+      "sector_id": "sec_corn",
+      "product_form": "plug",
+      "form": "plug",
+      "name_zh": "玉米育苗基质 SW-MZ-12",
+      "name_en": "Maize seedling media SW-MZ-12",
+      "spec_zh": "规格与理化指标按玉米育苗规程（待发布）",
+      "spec_en": "Specs per maize propagation protocol (to be released)",
+      "crops_zh": "玉米",
+      "crops_en": "Maize",
+      "models": [
+        "SW-MZ-12"
+      ],
+      "protocol_steps": 6,
+      "quality_grades": [
+        "一级",
+        "二级",
+        "三级"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "target",
+      "site_visibility": [
+        "cn",
+        "com"
+      ],
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T22:30:00+08:00",
+      "updated_at": "2026-11-19T22:30:00+08:00",
       "deleted_at": null
     }
   ]

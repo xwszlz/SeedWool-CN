@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-19T10:00:00+08:00",
+  "updated_at": "2026-11-19T22:30:00+08:00",
   "license_note_zh": "经专利权人授权使用，授权文件可按需提供备查",
   "license_note_en": "Used under licence from the patent holder; licence documents available on request",
   "license_disclosable": true,
@@ -127,6 +127,28 @@
       "name_en": "7th batch of Hebei Provincial Managed Outstanding Experts",
       "cert_no": "证字第 20140158 号",
       "date": "2014-11-07"
+    }
+  ],
+  "endorsements": [
+    {
+      "id": "exp_shang",
+      "name": "尚庆茂",
+      "title_exact_zh": "中国蔬菜协会种苗分会副会长兼秘书长",
+      "title_exact_en": "Vice President & Secretary-General, Seedling Branch, China Vegetable Association",
+      "affiliation_zh": "中国农业科学院蔬菜花卉研究所二级研究员、博士生导师",
+      "affiliation_en": "Senior Research Fellow & PhD Supervisor, Institute of Vegetables and Flowers, CAAS",
+      "collaboration_zh": "专家指导",
+      "collaboration_en": "Expert guidance",
+      "collaboration_status": "prospective",
+      "note_zh": "合作协议拟于 2027-03 签署，当前仅专家指导口径",
+      "site_visibility": [
+        "cn",
+        "com"
+      ],
+      "status": "published",
+      "created_at": "2026-11-19T22:30:00+08:00",
+      "updated_at": "2026-11-19T22:30:00+08:00",
+      "deleted_at": null
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T22:30:00+08:00",
+  "roadmap": [
+    {
+      "year": 2027,
+      "level_zh": "企业标准",
+      "level_en": "Enterprise standard",
+      "status": "target"
+    },
+    {
+      "year": 2028,
+      "level_zh": "团体标准",
+      "level_en": "Group standard",
+      "status": "target"
+    },
+    {
+      "year": 2029,
+      "level_zh": "地方/行业标准",
+      "level_en": "Local / industry standard",
+      "status": "target"
+    },
+    {
+      "year": null,
+      "level_zh": "国标预研",
+      "level_en": "National standard (research)",
+      "status": "prospective"
+    }
+  ],
+  "mark_system": {
+    "name_zh": "SeedWool 合格育秧岩棉标志",
+    "name_en": "SeedWool certified nursery rockwool mark",
+    "third_party_rule_zh": "第三方检测符合亦可贴标",
+    "third_party_rule_en": "Third-party test conformity also qualifies for the mark",
+    "independence_zh": "不收现场认证/审核执行费，制定标准者与执行认证者利益隔离",
+    "independence_en": "No on-site certification/audit execution fee; standard-setter separated from certifier",
+    "fee_public": false
+  },
+  "site_visibility": [
+    "cn",
+    "com"
+  ]
+}
