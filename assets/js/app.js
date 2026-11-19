@@ -165,7 +165,57 @@
     });
   }
 
+  /* ---------- 导航预取：把下一页提前拉入浏览器缓存，改善跨境整页跳转 ---------- */
+  function initPrefetch(){
+    var done = Object.create(null);              // 已预取的 URL 去重
+    function prefetch(a){
+      if (!a || done[a]) return;
+      var href = a.getAttribute('href') || '';
+      // 仅站内 .html 页面；跳过锚点、mailto、tel、外链、当前页、下载
+      if (!/\.html(?:$|[?#])/.test(href)) return;
+      if (/^(?:mailto:|tel:|javascript:|#)/i.test(href)) return;
+      if (/^(?:https?:)?\/\//i.test(href)) return;
+      if (a.hasAttribute('download')) return;
+      var abs;
+      try { abs = new URL(href, location.href).href; } catch(e){ return; }
+      if (abs.indexOf(location.origin) !== 0) return;
+      if (abs === location.href || abs.split('#')[0] === location.href.split('#')[0]) return;
+      done[abs] = 1;
+      var link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.as = 'document';
+      link.href = abs;
+      link.setAttribute('data-sw-prefetch', '1');
+      document.head.appendChild(link);
+      // 预取完成后移除节点，避免 head 无限膨胀
+      var cleanup = function(){ if (link.parentNode) link.parentNode.removeChild(link); };
+      link.addEventListener('load', cleanup, {once:true});
+      link.addEventListener('error', function(){ delete done[abs]; cleanup(); }, {once:true});
+    }
+    var idle = window.requestIdleCallback || function(fn){ return setTimeout(fn, 200); };
+    var links = $$('.nav a[href], .mnav a[href]');
+    links.forEach(function(a){
+      // 指针/键盘交互时立即预取
+      a.addEventListener('mouseenter', function(){ prefetch(a); }, {passive:true});
+      a.addEventListener('focus', function(){ prefetch(a); });
+      a.addEventListener('touchstart', function(){ prefetch(a); }, {passive:true});
+    });
+    // 视口内可见的导航项，空闲时静默预取（首屏主导航）
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          if (!en.isIntersecting) return;
+          var a = en.target;
+          io.unobserve(a);
+          idle(function(){ prefetch(a); });
+        });
+      }, {rootMargin: '0px'});
+      links.forEach(function(a){ io.observe(a); });
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function(){
     renderShare(); renderProducts(); bindVerify(); bindSectorSelect();
+    initPrefetch();
   });
 })();
