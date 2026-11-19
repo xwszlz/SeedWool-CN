@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "updated_at": "2026-11-19T10:00:00+08:00",
+  "schema_version": "1.1.0",
+  "updated_at": "2026-11-19T22:30:00+08:00",
   "items": [
     {
       "level": 1,
@@ -34,5 +34,40 @@
       "deliverable_en": "Process layer from 2027; cultivation and greenhouse layers from 2028 (in development)",
       "status": "draft"
     }
-  ]
+  ],
+  "value_proposition": {
+    "schema_version": "1.1.0",
+    "mode": "qualitative",
+    "claims_zh": [
+      {
+        "id": "v1",
+        "text_zh": "帮助提升作物产量",
+        "text_en": "Helps improve crop yield"
+      },
+      {
+        "id": "v2",
+        "text_zh": "提升水肥利用效率、降低投入",
+        "text_en": "Improves water & nutrient efficiency, lowers input"
+      },
+      {
+        "id": "v3",
+        "text_zh": "约两年量级回收导向",
+        "text_en": "Payback-oriented on a ~two-year scale"
+      }
+    ],
+    "qualifier_zh": "效果因作物、茬口与管理而异，以具体项目合同约定为准",
+    "qualifier_en": "Results vary by crop, season and management; subject to the specific project contract",
+    "note": "D3 已拍板 B：全站禁用 15%/20%/2年 等收益数字，仅定性表述"
+  },
+  "service_model": {
+    "model_zh": "材料费 + 服务年费 + 增量分成",
+    "model_en": "Materials + annual service fee + gain-sharing",
+    "revenue_split_public": false,
+    "note": "C2 裁决：收入占比仅内部留存，公开页不渲染数字"
+  },
+  "risk_sharing": {
+    "desc_zh": "未达约定效果的处理机制以合同约定为准",
+    "desc_en": "Remedies for underperformance are as agreed in the contract",
+    "public_amount": null
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1.0",
-  "updated_at": "2026-11-19T10:00:00+08:00",
+  "schema_version": "1.2.0",
+  "updated_at": "2026-11-19T22:30:00+08:00",
   "disclaimer": "验真结果为批次登记信息，检测项与指标以随附检测报告为准",
   "items": [
     {
@@ -15,7 +15,27 @@
       "status": "verified",
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
-      "deleted_at": null
+      "deleted_at": null,
+      "agronomy": {
+        "bulk_density_zh": "容重",
+        "bulk_density": "按检测报告",
+        "porosity": "按检测报告",
+        "EC": "按检测报告",
+        "pH": "按检测报告",
+        "water_absorption": "按检测报告"
+      },
+      "qa": {
+        "result": "PASS",
+        "grade": "A",
+        "grade_zh": "一级",
+        "checked_at": "2026-03-12",
+        "report_pdf": "/reports/SW-2026-0001.pdf",
+        "note": "qa.grade 为质量等级 A/B/C/D，与 ledger 账本 A/B 语义不同，禁止混入求和"
+      },
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
     },
     {
       "batch_code": "SW-2026-0002",
@@ -29,6 +49,60 @@
       "status": "verified",
       "created_at": "2026-11-19T10:00:00+08:00",
       "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null,
+      "agronomy": {
+        "bulk_density_zh": "容重",
+        "bulk_density": "按检测报告",
+        "porosity": "按检测报告",
+        "EC": "按检测报告",
+        "pH": "按检测报告",
+        "water_absorption": "按检测报告"
+      },
+      "qa": {
+        "result": "PASS",
+        "grade": "A",
+        "grade_zh": "一级",
+        "checked_at": "2026-04-08",
+        "report_pdf": "/reports/SW-2026-0002.pdf",
+        "note": "qa.grade 为质量等级 A/B/C/D，与 ledger 账本 A/B 语义不同，禁止混入求和"
+      },
+      "site_visibility": [
+        "cn",
+        "com"
+      ]
+    },
+    {
+      "batch_code": "SW-2026-0003",
+      "product_zh": "玉米育苗基质 SW-MZ-11",
+      "product_en": "Maize seedling media SW-MZ-11",
+      "produced_at": "2026-10-20",
+      "line_zh": "农业种植岩棉试验线",
+      "line_en": "Pilot agri-media line",
+      "spec_zh": "玉米育苗规程 v0.1（前瞻）",
+      "spec_en": "Maize propagation protocol v0.1 (prospective)",
+      "status": "registered",
+      "site_visibility": [
+        "cn",
+        "com"
+      ],
+      "agronomy": {
+        "bulk_density_zh": "容重",
+        "bulk_density": "按检测报告",
+        "porosity": "按检测报告",
+        "EC": "按检测报告",
+        "pH": "按检测报告",
+        "water_absorption": "按检测报告"
+      },
+      "qa": {
+        "result": "PENDING",
+        "grade": "—",
+        "grade_zh": "待检测",
+        "checked_at": "",
+        "report_pdf": null,
+        "note": "前瞻批次，检测数据待补；qa.grade 与 ledger 无关"
+      },
+      "created_at": "2026-11-19T22:30:00+08:00",
+      "updated_at": "2026-11-19T22:30:00+08:00",
       "deleted_at": null
     }
   ]
