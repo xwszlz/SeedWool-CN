@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "disclaimer": "value 为 null 的节点为规划期，不连线插值",
+  "items": [
+    {
+      "year": "2026",
+      "stage_zh": "固本",
+      "stage_en": "Consolidate",
+      "status": "actual",
+      "capacity_10kt": null,
+      "desc_zh": "第 0 期准备：产线设计、规程编制、示范基地选址",
+      "desc_en": "Phase 0 preparation: line design, protocol drafting, demo site selection"
+    },
+    {
+      "year": "2027",
+      "stage_zh": "跃升",
+      "stage_en": "Leap",
+      "status": "roadmap",
+      "capacity_10kt": 1.5,
+      "desc_zh": "首线 6 月投产 · 1.5 万吨 / 2 亿元 / 5000 万元",
+      "desc_en": "First line commissioned in June · 15,000 t / CNY 200M / CNY 50M"
+    },
+    {
+      "year": "2028",
+      "stage_zh": "跃升",
+      "stage_en": "Leap",
+      "status": "roadmap",
+      "capacity_10kt": null,
+      "desc_zh": "分线爬坡，产能分步释放",
+      "desc_en": "Line-by-line ramp-up"
+    },
+    {
+      "year": "2029",
+      "stage_zh": "引领",
+      "stage_en": "Lead",
+      "status": "target",
+      "capacity_10kt": 14.0,
+      "desc_zh": "四线建成 · 14 万吨 / 20 亿元（目标）",
+      "desc_en": "Four lines complete · 140,000 t / CNY 2bn (target)"
+    }
+  ]
+}

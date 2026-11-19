@@ -1,1 +1,35 @@
-{"schema_version":"1.0","demo":true,"disclaimer":"以下为演示批次，非正式验真数据","items":[{"batch_code":"SW-20250110-001","product":"育秧基质","product_en":"Rockwool Nursery Matrix","produced_at":"2025-01-10","status":"verified","cert_url":"assets/img/cert1.webp","created_at":"2025-01-10","updated_at":"2026-11-18","deleted_at":null},{"batch_code":"SW-20250315-002","product":"岩棉育苗块","product_en":"Rockwool Growing Block","produced_at":"2025-03-15","status":"verified","cert_url":"assets/img/cert2.webp","created_at":"2025-03-15","updated_at":"2026-11-18","deleted_at":null}]}
+{
+  "schema_version": "1.1.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "disclaimer": "验真结果为批次登记信息，检测项与指标以随附检测报告为准",
+  "items": [
+    {
+      "batch_code": "SW-2026-0001",
+      "product_zh": "水稻育秧板 50×25×1 cm",
+      "product_en": "Rice seedling board 50×25×1 cm",
+      "produced_at": "2026-03-12",
+      "line_zh": "农业种植岩棉试验线",
+      "line_en": "Pilot agri-media line",
+      "spec_zh": "育苗规程 v1.0（12 章）",
+      "spec_en": "Propagation protocol v1.0 (12 ch.)",
+      "status": "verified",
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "batch_code": "SW-2026-0002",
+      "product_zh": "岩棉种植条 100×20×7.5 cm",
+      "product_en": "Rockwool growing slab 100×20×7.5 cm",
+      "produced_at": "2026-04-08",
+      "line_zh": "农业种植岩棉试验线",
+      "line_en": "Pilot agri-media line",
+      "spec_zh": "种植基质规程 v1.0（14 章）",
+      "spec_en": "Growing media protocol v1.0 (14 ch.)",
+      "status": "verified",
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    }
+  ]
+}

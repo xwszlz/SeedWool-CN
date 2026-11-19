@@ -1,1 +1,142 @@
-{"schema_version":"1.0","updated_at":"2026-11-18","items":[{"id":"P001","sku":"SW-NF-001","title_zh":"育秧无纺布","title_en":"Rice Nursery Fabric","summary_zh":"图片仅供参考，规格与报价请询盘","summary_en":"Illustrative image. Spec & quote on request.","images":["assets/img/ali1.jpg"],"specs":{"材质":"Polypropylene","状态":"规格示意"},"source":"alibaba","source_url":"","price_mode":"consult","certifications":[],"status":"published","locale":"zh","disclaimer":"图片仅供参考，非最终交付样式","created_at":"2025-01-01","updated_at":"2026-11-18","deleted_at":null},{"id":"P002","sku":"SW-RM-002","title_zh":"育秧岩棉基质","title_en":"Rockwool Nursery Matrix","summary_zh":"图片仅供参考，规格与报价请询盘","summary_en":"Illustrative image. Spec & quote on request.","images":["assets/img/ali2.jpg"],"specs":{"类型":"Rice seedling","状态":"规格示意"},"source":"alibaba","source_url":"","price_mode":"consult","certifications":[],"status":"published","locale":"zh","disclaimer":"图片仅供参考，非最终交付样式","created_at":"2025-01-01","updated_at":"2026-11-18","deleted_at":null},{"id":"P003","sku":"SW-RB-003","title_zh":"岩棉育苗块","title_en":"Rockwool Growing Block","summary_zh":"图片仅供参考，规格与报价请询盘","summary_en":"Illustrative image. Spec & quote on request.","images":["assets/img/block.jpg"],"specs":{"用途":"Seedling block","状态":"规格示意"},"source":"alibaba","source_url":"","price_mode":"consult","certifications":[],"status":"published","locale":"zh","disclaimer":"图片仅供参考，非最终交付样式","created_at":"2025-01-01","updated_at":"2026-11-18","deleted_at":null},{"id":"P004","sku":"SW-MT-004","title_zh":"多孔纤维种植垫","title_en":"Porous Fiber Growing Mat","summary_zh":"图片仅供参考，规格与报价请询盘","summary_en":"Illustrative image. Spec & quote on request.","images":["assets/img/mat.jpg"],"specs":{"用途":"Planting mat","状态":"规格示意"},"source":"alibaba","source_url":"","price_mode":"consult","certifications":[],"status":"published","locale":"zh","disclaimer":"图片仅供参考，非最终交付样式","created_at":"2025-01-01","updated_at":"2026-11-18","deleted_at":null}]}
+{
+  "schema_version": "1.1.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "disclaimer": {
+    "price_mode": "consult",
+    "note": "全站不列价格，规格与报价按方案确定"
+  },
+  "items": [
+    {
+      "id": "p_sub_slab",
+      "sector_id": "sec_substrate",
+      "product_form": "slab",
+      "name_zh": "岩棉种植条",
+      "name_en": "Rockwool growing slab",
+      "spec_zh": "常规 100×20×7.5 cm，可按栽培槽定制",
+      "spec_en": "Standard 100×20×7.5 cm, customisable to trough",
+      "crops_zh": "番茄 / 彩椒 / 黄瓜",
+      "crops_en": "Tomato / Pepper / Cucumber",
+      "images": [
+        "assets/img/mat.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": true,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_sub_block",
+      "sector_id": "sec_substrate",
+      "product_form": "block",
+      "name_zh": "岩棉种植块",
+      "name_en": "Rockwool growing block",
+      "spec_zh": "10×10×6.5 cm 等常规规格",
+      "spec_en": "10×10×6.5 cm and other standard sizes",
+      "crops_zh": "番茄 / 草莓",
+      "crops_en": "Tomato / Strawberry",
+      "images": [
+        "assets/img/block.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": true,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_rice_board",
+      "sector_id": "sec_rice",
+      "product_form": "board",
+      "name_zh": "水稻育秧板",
+      "name_en": "Rice seedling board",
+      "spec_zh": "50×25×1 cm",
+      "spec_en": "50×25×1 cm",
+      "crops_zh": "机插水稻",
+      "crops_en": "Machine-transplanted rice",
+      "images": [
+        "assets/img/rice.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_rice_mat",
+      "sector_id": "sec_rice",
+      "product_form": "mat",
+      "name_zh": "水稻育秧毯",
+      "name_en": "Rice seedling mat",
+      "spec_zh": "按机插机型配套",
+      "spec_en": "Matched to transplanter model",
+      "crops_zh": "机插水稻",
+      "crops_en": "Machine-transplanted rice",
+      "images": [
+        "assets/img/system.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_seed_plug",
+      "sector_id": "sec_seedling",
+      "product_form": "plug",
+      "name_zh": "育苗塞",
+      "name_en": "Propagation plug",
+      "spec_zh": "多孔径可选",
+      "spec_en": "Multiple cavity diameters",
+      "crops_zh": "茄果 / 瓜类 / 花卉",
+      "crops_en": "Solanaceae / Cucurbits / Flowers",
+      "images": [
+        "assets/img/fiber.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    },
+    {
+      "id": "p_other_custom",
+      "sector_id": "sec_other",
+      "product_form": "custom",
+      "name_zh": "异形定制纤维件",
+      "name_en": "Custom fibre part",
+      "spec_zh": "按图定制",
+      "spec_en": "Made to drawing",
+      "crops_zh": "治沙 / 生态修复 / 工业配套",
+      "crops_en": "Desert control / Restoration / Industrial",
+      "images": [
+        "assets/img/block.webp"
+      ],
+      "unit": "per_piece",
+      "price_mode": "consult",
+      "target_vs_actual": "actual",
+      "status": "published",
+      "featured": false,
+      "created_at": "2026-11-19T10:00:00+08:00",
+      "updated_at": "2026-11-19T10:00:00+08:00",
+      "deleted_at": null
+    }
+  ]
+}
