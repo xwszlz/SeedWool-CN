@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "items": [
+    {
+      "level": 1,
+      "name_zh": "材料",
+      "name_en": "Material",
+      "deliverable_zh": "按作物与气候匹配的基质型号，含容重、纤维直径、亲水率参数",
+      "deliverable_en": "A substrate grade matched to crop and climate, with density, fibre diameter and wettability data",
+      "status": "published"
+    },
+    {
+      "level": 2,
+      "name_zh": "规程",
+      "name_en": "Protocol",
+      "deliverable_zh": "成套技术规程：育苗 12 章、种植基质 14 章、草莓 16 章",
+      "deliverable_en": "Complete protocols: 12 chapters propagation, 14 chapters growing media, 16 chapters strawberry",
+      "status": "published"
+    },
+    {
+      "level": 3,
+      "name_zh": "装备",
+      "name_en": "Equipment",
+      "deliverable_zh": "专用产线与配套装备，2027 年首线投用",
+      "deliverable_en": "Dedicated production line and supporting equipment, first line commissioned 2027",
+      "status": "published"
+    },
+    {
+      "level": 4,
+      "name_zh": "智能决策",
+      "name_en": "Intelligence",
+      "deliverable_zh": "工艺层 2027 启动，栽培层与温室层 2028 推进（建设中）",
+      "deliverable_en": "Process layer from 2027; cultivation and greenhouse layers from 2028 (in development)",
+      "status": "draft"
+    }
+  ]
+}

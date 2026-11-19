@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "total_countries": 60,
+  "export_share_target": 0.28,
+  "export_share_type": "target_2029",
+  "tiers": [
+    {
+      "tier": "A",
+      "label_zh": "直投国",
+      "label_en": "Direct",
+      "admission_status": "compliant",
+      "desc_zh": "准入路径清晰、已完成植物生长介质检疫准入，可直接供货",
+      "desc_en": "Clear admission pathway; growing-media quarantine admission completed"
+    },
+    {
+      "tier": "B",
+      "label_zh": "补证国",
+      "label_en": "Documentation",
+      "admission_status": "in_progress",
+      "desc_zh": "需补充检疫或认证文件后准入，周期可控",
+      "desc_en": "Admission after supplementary quarantine or certification documents"
+    },
+    {
+      "tier": "C",
+      "label_zh": "观察国",
+      "label_en": "Watchlist",
+      "admission_status": "restricted",
+      "desc_zh": "准入规则调整中或存在限制，按项目评估",
+      "desc_en": "Rules under revision or restricted; assessed case by case"
+    }
+  ]
+}

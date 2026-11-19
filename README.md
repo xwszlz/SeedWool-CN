@@ -1,32 +1,27 @@
-# SeedWool seedwool.cn 静态站上线包
+# SeedWool .cn 中国站 · V3（战略重构版）
 
-## 一、上线步骤（Vercel）
-1. 把本目录内**所有文件**复制到仓库 `xwszlz/SeedWool-CN` 的 `main` 分支根目录（index.html 必须在根）。
-2. `git add . && git commit -m "site: SeedWool UI v2" && git push origin main`。
-3. Vercel 会自动构建发布（纯静态，无需 build 命令）；确认域名 `seedwool.cn` 指向该项目。
-4. 上线后提交 `https://seedwool.cn/sitemap.xml` 到百度站长平台。
+## 目录
+- 12 个正式页 + 404：`index / substrate / rice / seedling / other / rockwool / yaas / standards / global / about / contact / verify / privacy / 404`
+- `assets/css/tokens.css`：设计令牌与全部组件样式（单一文件，无构建）
+- `assets/js/app.js`：渲染层（占比条 / 产品 / 批次验真 / 询盘弹层）
+- `assets/data/*.json`：sectors / products / assets_ip / yaas / exports / route_map / indicators / batches
+- `assets/img/`：WebP + JPEG fallback
 
-## 二、备案（重要）
-- 当前页脚为「ICP 备案办理中 · 过渡期展示」，**没有放假备案号**。
-- 备案通过后：把每个页面 footer 里的 `icp-pending` 那一行替换为真实备案号并链接到 https://beian.miit.gov.cn（搜索 `ICP 备案办理中` 即可定位，共 6 个页面）。
-- 备案需要境内服务器：过渡期用 Vercel，通过后请迁至境内 ECS/轻量服务器；本目录文件可直接上传，无需改动。
+## 部署
+1. 把本目录**全部文件**复制到 `xwszlz/SeedWool-CN` 仓库根目录（index.html 必须在根）
+2. `git add . && git commit -m "..." && git push` → Vercel 自动发布
+3. 提交 `https://seedwool.cn/sitemap.xml` 到百度站长平台
 
-## 三、内容更新
-- 产品：编辑 `assets/data/products.json`（一期图来自阿里，二期换自有系统导出同结构 JSON，前端零改动）。
-- 指标 / 批次 / 论文：分别编辑 `indicators.json` / `batches.json` / `papers.json`。
-- 数据看板与验真的接口抽象层在 `assets/js/data-adapter.js`；未来接 API 只改 `DataSource.type` 与 `base`，页面不用改。
-- **所有指标均标注"工程示意值"，请勿把示意值改成未经检测认证的"实测"数据对外宣传。**
+## 数据更新（不需要改 HTML）
+产品/板块/批次等数据在 `assets/data/*.json`，改完 push 即生效。
+页面同时内联一份数据（`<script type="application/json">`）以保证首屏与 SEO，
+若改 JSON 需同步重新运行生成器，或直接改内联块（二选一，勿只改一处造成不一致）。
 
-## 四、询盘
-- 全站询盘统一走邮件：1207560536@qq.com（弹层、吸底条、页脚三处）。当前无在线表单、无二维码。
-- 目前没有微信二维码，也没有在线报价；报价一律邮件人工回复。
+### 口径铁律（改动时务必遵守）
+- `ledger: A` 才计入 14 万吨 / 20 亿口径；`ledger: B`（建筑岩棉）单列，**禁止混算**
+- `target_vs_actual` 必填；2029 产能/营收一律标 `target`
+- 专利身份：经专利权人授权使用，**不得写成"自主拥有"**
+- 农用基质与建筑绝热岩棉分属不同标准体系，不可互作验收依据
 
-## 五、文件结构
-```
-index.html  rice.html  soon-*.html（4 个占位页）
-assets/css/tokens.css + blocks.css（两站同源）
-assets/js/data-adapter.js + app.js
-assets/data/products.json + indicators.json + batches.json + papers.json
-assets/img/*.webp + *.jpg（原图 fallback）
-sitemap.xml  robots.txt  vercel.json
-```
+## 待办
+- ICP 备案号下来后，把全站页脚「ICP 备案办理中 · 过渡期展示」替换为真实号并链接 beian.miit.gov.cn

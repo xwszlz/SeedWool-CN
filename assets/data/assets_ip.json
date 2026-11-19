@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-19T10:00:00+08:00",
+  "license_note_zh": "经专利权人授权使用，授权文件可按需提供备查",
+  "license_note_en": "Used under licence from the patent holder; licence documents available on request",
+  "license_disclosable": true,
+  "patents": [
+    {
+      "id": "pat_1",
+      "type": "patent",
+      "name_zh": "一种育苗用岩棉基质及其制备方法",
+      "name_en": "Rockwool substrate for seedling propagation and its preparation",
+      "patent_no": "ZL 2021 1 0621707.4",
+      "cert_no": "第 6399938 号",
+      "pub_no": "CN 113951092 B",
+      "granted_at": "2023-10-13",
+      "sector_id": "sec_seedling",
+      "status": "published"
+    },
+    {
+      "id": "pat_2",
+      "type": "patent",
+      "name_zh": "一种种植用岩棉基质及其制备方法",
+      "name_en": "Rockwool substrate for cultivation and its preparation",
+      "patent_no": "ZL 2021 1 0620521.7",
+      "cert_no": "第 5850856 号",
+      "pub_no": "CN 113841584 B",
+      "granted_at": "2023-04-07",
+      "sector_id": "sec_substrate",
+      "status": "published"
+    },
+    {
+      "id": "pat_3",
+      "type": "patent",
+      "name_zh": "一种治沙用无机纤维基质及制备方法",
+      "name_en": "Inorganic fibre substrate for desertification control and its preparation",
+      "patent_no": "ZL 2024 1 0839951.1",
+      "cert_no": "第 8546783 号",
+      "pub_no": "CN 118661615 B",
+      "granted_at": "2025-12-05",
+      "sector_id": "sec_other",
+      "status": "published"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_1",
+      "type": "achievement",
+      "name_zh": "机插水稻岩棉育秧技术的研究与应用",
+      "name_en": "Rockwool seedling technology for machine-transplanted rice",
+      "level": "provincial",
+      "reg_no": "20250949",
+      "issuer": "河北省科学技术厅",
+      "date": "2025-05-09",
+      "status": "published"
+    },
+    {
+      "id": "ach_2",
+      "type": "achievement",
+      "name_zh": "机插水稻岩棉育秧技术的研究与应用",
+      "name_en": "Rockwool seedling technology for machine-transplanted rice",
+      "level": "national",
+      "reg_no": "3392025Y1039",
+      "issuer": "工业和信息化部批准登记",
+      "date": "2025-03-19",
+      "status": "published"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "spec_1",
+      "type": "protocol",
+      "name_zh": "岩棉集约化育苗技术规程",
+      "name_en": "Technical protocol for intensive rockwool seedling propagation",
+      "chapters": 12,
+      "appendices": 2,
+      "tables": 12,
+      "status": "compiled",
+      "sector_id": "sec_seedling"
+    },
+    {
+      "id": "spec_2",
+      "type": "protocol",
+      "name_zh": "无机纤维岩棉种植基质栽培技术规程",
+      "name_en": "Technical protocol for inorganic-fibre rockwool growing media",
+      "chapters": 14,
+      "appendices": 3,
+      "tables": 17,
+      "status": "compiled",
+      "sector_id": "sec_substrate"
+    },
+    {
+      "id": "spec_3",
+      "type": "protocol",
+      "name_zh": "无机纤维草莓育秧及种植技术规程",
+      "name_en": "Technical protocol for inorganic-fibre strawberry propagation and cultivation",
+      "chapters": 16,
+      "appendices": 4,
+      "tables": 21,
+      "status": "compiled",
+      "sector_id": "sec_substrate"
+    },
+    {
+      "id": "spec_4",
+      "type": "protocol",
+      "name_zh": "无机纤维水稻育秧基质及机插育秧技术规程",
+      "name_en": "Technical protocol for inorganic-fibre rice seedling media and machine transplanting",
+      "chapters": null,
+      "appendices": null,
+      "tables": null,
+      "status": "planned_2027",
+      "sector_id": "sec_rice"
+    }
+  ],
+  "agreement": {
+    "type": "agreement",
+    "name_zh": "京津冀设施农业联合试验示范协议",
+    "name_en": "Beijing-Tianjin-Hebei joint trial and demonstration agreement",
+    "signed_at": "2025-05-25",
+    "valid_until": "2030-05-25",
+    "parties": 7
+  },
+  "honors": [
+    {
+      "type": "honor",
+      "name_zh": "第七批河北省省管优秀专家",
+      "name_en": "7th batch of Hebei Provincial Managed Outstanding Experts",
+      "cert_no": "证字第 20140158 号",
+      "date": "2014-11-07"
+    }
+  ]
+}
